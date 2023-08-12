@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Raleway:wght@300;400&display=swap');
+body {
+	font-family: 'Raleway', sans-serif;
+}
+.team-user {
+	position: relative;
+	margin-top: -30px;
+}
+.paragraph{
+	font-size: 10px;
+}
+.paragraph1{
+	font-size: 14px;
+}
+.bold{
+	font-weight: bolder;
+}
+.jumbo{
+	padding-top: 20px;
+}
+.text {
+	color: rgb(19, 136, 204);
+}
+.hand {
+	font-size: 20px;
+}
+.handwritten {
+	/* font-family: 'Marck Script', cursive; */
+	font-size: 35px;
+	color: whitesmoke;
+}
+/* .btn-primary{
+	background-color: blue; 
+	border-radius: 20px;
+} */
+
+.bg-img {
+	background: url(../images/Rectangle\ 9.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+/* .bg-black {
+	background-color: rgb(12, 40, 51);
+} */
+/* .mt-center {
+	margin-top: 50%;
+} */
+
+/* .ml-6{
+	display: none;
+} */
+.link {
+	color: #fff;
+	
+}
+.link:hover{
+	color: #3960FC;
+	text-decoration: none;
+}
+/* .bg-indigo {
+	background-color: rgb(140, 185, 185);
+} */
+.bg-mute {
+	/* background-color: #f1f3f5; */
+	background-color: whitesmoke;
+}
+.btn-secondary {
+	border-color: rgb(140, 185, 185);;
+	background-color: rgb(140, 185, 185);;
+}
+.btn-secondary:hover {
+	background-color: #1f1f20;
+	border-color: #1f2021;
+}
+
+.shadow{
+	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+}
+.btn-blue {
+	background-color: #5C7CFA;
+	border-radius: 20px;
+	color: whitesmoke;
+}
+.btn-blue:hover{
+	background-color: #3960FC;
+	color: whitesmoke;
+}
+.card {
+	background: white;
+	/* padding: 15px; */
+}
+.team{
+	margin-right: -50px;
+}
+.item {
+	background: whitesmoke;
+	padding: 15px;
+}
+.item:hover{
+	background-color: #5C7CFA;
+	box-shadow:0 0 20px 0 rgba(0, 0, 0, 0.5);
+	color: whitesmoke;
+}
+.social{
+	/* background-color: #fff; */
+	border-radius: 10px;
+	box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.5);
+}
+.social:hover{
+	background-color: rgb(208, 205, 188);
+	box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.5);
+}
+.list{
+	line-height: 30px;
+}
+.mobile-hide{
+	display: block;
+}
+.t-hide{
+	display: none;
+}
+/* #ml-auto{
+	margin-left: 30px;
+} */
+/* Target device with a width of 480px and below*/
+@media only screen and (max-width: 480px){
+	.mobile-hide{
+		display: none;
+	}
+	.t-hide{
+		display: block;
+	}
+	.mobile-t{
+		margin-top: -3rem;
+	}
+	.mar-left{
+		margin-left: 30px;
+	}
+	.team-user {
+		position: relative;
+		margin-top: 20px;
+		/* margin-left: 50px; */
+	}
+	.about{
+		display: flex;
+		flex-direction: column;
+	}
+	.list a{
+		display: flex;
+		flex-direction: column-reverse;
+		line-height: 40px;
+		
+	}
+}
+
+input[type=email]{
+	height: 80px;
+}
+.foot{
+	margin-top: 50px;
+	margin-bottom: 0px;
+}
+
+@media only screen and (min-width: 1200px){
+	.ml-6{
+		display: block;
+		margin-left: 7.5rem;
+	}
+}
+.icons{
+	margin-top: -25px;
+}
+.img{
+	margin-top: -10px;
+}
